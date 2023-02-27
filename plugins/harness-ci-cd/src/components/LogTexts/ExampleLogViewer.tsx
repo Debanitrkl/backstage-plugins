@@ -3,7 +3,7 @@ import { LogViewer } from '@backstage/core-components';
 import type { LogSectionData, LogLineData } from './types'
 import { discoveryApiRef, useApi } from '@backstage/core-plugin-api';
 import { useEntity } from "@backstage/plugin-catalog-react";
-import { isExecutionRunningLike, isExecutionWaitingForIntervention } from '../BuildWithStepsPage/defs';
+import { isExecutionRunningLike, isExecutionWaitingForIntervention } from './defs';
 import { EventSourcePolyfill } from 'event-source-polyfill';
 import { PQueue } from './PQueue';
 
