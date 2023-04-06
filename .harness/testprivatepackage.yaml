@@ -68,4 +68,4 @@ pipeline:
       value: account.githubbotharness
     - name: npm_token
       type: Secret
-      value: <+secrets.getValue("npm_token")>
+      value: npmtokendeba
